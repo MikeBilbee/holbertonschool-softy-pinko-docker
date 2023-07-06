@@ -1,0 +1,6 @@
+# syntax=docker/task0
+
+FROM ubuntu:latest
+RUN apt-get update
+RUN apt-get upgrade -y
+RUN 'echo', 'Hello, World!'
