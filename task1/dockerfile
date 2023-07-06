@@ -6,4 +6,3 @@ RUN pip install Flask
 WORKDIR /app
 COPY ./api.py /app/api.py
 EXPOSE 5252
-CMD echo "Hello, World!"
